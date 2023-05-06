@@ -1,0 +1,281 @@
+Number of platforms                               2
+  Platform Name                                   ARM Platform
+  Platform Vendor                                 ARM
+  Platform Version                                OpenCL 2.1 v1.g6p0-01eac0.efb75e2978d783a80fe78be1bfb0efc1
+  Platform Profile                                FULL_PROFILE
+  Platform Extensions                             cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_khr_3d_image_writes cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_fp16 cl_khr_icd cl_khr_egl_image cl_khr_image2d_from_buffer cl_khr_depth_images cl_khr_subgroups cl_khr_subgroup_extended_types cl_khr_subgroup_non_uniform_vote cl_khr_subgroup_ballot cl_khr_il_program cl_khr_priority_hints cl_khr_create_command_queue cl_khr_spirv_no_integer_wrap_decoration cl_khr_extended_versioning cl_khr_device_uuid cl_arm_core_id cl_arm_printf cl_arm_non_uniform_work_group_size cl_arm_import_memory cl_arm_import_memory_dma_buf cl_arm_import_memory_host cl_arm_integer_dot_product_int8 cl_arm_integer_dot_product_accumulate_int8 cl_arm_integer_dot_product_accumulate_saturate_int8 cl_arm_scheduling_controls cl_arm_controlled_kernel_termination cl_ext_cxx_for_opencl
+  Platform Extensions function suffix             ARM
+  Platform Host timer resolution                  1ns
+
+  Platform Name                                   Portable Computing Language
+  Platform Vendor                                 The pocl project
+  Platform Version                                OpenCL 2.0 pocl 1.8  Linux, None+Asserts, RELOC, LLVM 11.1.0, SLEEF, POCL_DEBUG
+  Platform Profile                                FULL_PROFILE
+  Platform Extensions                             cl_khr_icd cl_pocl_content_size
+  Platform Extensions function suffix             POCL
+
+  Platform Name                                   ARM Platform
+Number of devices                                 1
+arm_release_ver of this libmali is 'g6p0-01eac0', rk_so_ver is '5'.
+  Device Name                                     Mali-LODX r0p0
+  Device Vendor                                   ARM
+  Device Vendor ID                                0xa8670000
+  Device Version                                  OpenCL 2.1 v1.g6p0-01eac0.efb75e2978d783a80fe78be1bfb0efc1
+  Device UUID                                     000067a8-0100-0000-0000-000000000000
+  Driver UUID                                     d9495bef-ea91-7c52-8a43-8a3c2f7b49cc
+  Valid Device LUID                               No
+  Device LUID                                     0000-000000000000
+  Device Node Mask                                0
+  Device Numeric Version                          0x801000 (2.1.0)
+  Driver Version                                  2.1
+  Device OpenCL C Version                         OpenCL C 2.0 v1.g6p0-01eac0.efb75e2978d783a80fe78be1bfb0efc1
+  Device C++ for OpenCL Numeric Version           0x400000 (1.0.0)
+  Device Type                                     GPU
+  Device Profile                                  FULL_PROFILE
+  Device Available                                Yes
+  Compiler Available                              Yes
+  Linker Available                                Yes
+  Max compute units                               4
+  Available core IDs                              0, 2, 16, 18
+  Max clock frequency                             1000MHz
+  Device Partition                                (core)
+    Max number of sub-devices                     0
+    Supported partition types                     None
+    Supported affinity domains                    (n/a)
+  Max work item dimensions                        3
+  Max work item sizes                             1024x1024x1024
+  Max work group size                             1024
+  Preferred work group size multiple (kernel)     16
+  Max sub-groups per work group                   64
+  Preferred / native vector sizes                 
+    char                                                16 / 4       
+    short                                                8 / 2       
+    int                                                  4 / 1       
+    long                                                 2 / 1       
+    half                                                 8 / 2        (cl_khr_fp16)
+    float                                                4 / 1       
+    double                                               0 / 0        (n/a)
+  Half-precision Floating-point support           (cl_khr_fp16)
+    Denormals                                     Yes
+    Infinity and NANs                             Yes
+    Round to nearest                              Yes
+    Round to zero                                 Yes
+    Round to infinity                             Yes
+    IEEE754-2008 fused multiply-add               Yes
+    Support is emulated in software               No
+  Single-precision Floating-point support         (core)
+    Denormals                                     Yes
+    Infinity and NANs                             Yes
+    Round to nearest                              Yes
+    Round to zero                                 Yes
+    Round to infinity                             Yes
+    IEEE754-2008 fused multiply-add               Yes
+    Support is emulated in software               No
+    Correctly-rounded divide and sqrt operations  No
+  Double-precision Floating-point support         (n/a)
+  Address bits                                    64, Little-Endian
+  Global memory size                              8055664640 (7.502GiB)
+  Error Correction support                        No
+  Max memory allocation                           8055664640 (7.502GiB)
+  Unified memory for Host and Device              Yes
+  Shared Virtual Memory (SVM) capabilities        (core)
+    Coarse-grained buffer sharing                 Yes
+    Fine-grained buffer sharing                   No
+    Fine-grained system sharing                   No
+    Atomics                                       No
+  Minimum alignment for any data type             128 bytes
+  Alignment of base address                       1024 bits (128 bytes)
+  Preferred alignment for atomics                 
+    SVM                                           0 bytes
+    Global                                        0 bytes
+    Local                                         0 bytes
+  Max size for global variable                    65536 (64KiB)
+  Preferred total size of global vars             0
+  Global Memory cache type                        Read/Write
+  Global Memory cache size                        1048576 (1024KiB)
+  Global Memory cache line size                   64 bytes
+  Image support                                   Yes
+    Max number of samplers per kernel             16
+    Max size for 1D images from buffer            65536 pixels
+    Max 1D or 2D image array size                 2048 images
+    Base address alignment for 2D image buffers   32 bytes
+    Pitch alignment for 2D image buffers          64 pixels
+    Max 2D image size                             65536x65536 pixels
+    Max 3D image size                             65536x65536x65536 pixels
+    Max number of read image args                 128
+    Max number of write image args                64
+    Max number of read/write image args           64
+  Max number of pipe args                         16
+  Max active pipe reservations                    1
+  Max pipe packet size                            1024
+  Local memory type                               Global
+  Local memory size                               32768 (32KiB)
+  Max number of constant args                     128
+  Max constant buffer size                        8055664640 (7.502GiB)
+  Max size of kernel argument                     1024
+  Queue properties (on host)                      
+    Out-of-order execution                        Yes
+    Profiling                                     Yes
+  Queue properties (on device)                    
+    Out-of-order execution                        Yes
+    Profiling                                     Yes
+    Preferred size                                2097152 (2MiB)
+    Max size                                      16777216 (16MiB)
+  Max queues on device                            1
+  Max events on device                            1024
+  Prefer user sync for interop                    No
+  Profiling timer resolution                      1000ns
+  Execution capabilities                          
+    Run OpenCL kernels                            Yes
+    Run native kernels                            No
+    Sub-group independent forward progress        Yes
+    IL version                                    SPIR-V_1.0
+    ILs with version                              SPIR-V                                                           0x400000 (1.0.0)
+  printf() buffer size                            1048576 (1024KiB)
+  Built-in kernels                                (n/a)
+  Built-in kernels with version                   (n/a)
+  Device Extensions                               cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_khr_3d_image_writes cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_fp16 cl_khr_icd cl_khr_egl_image cl_khr_image2d_from_buffer cl_khr_depth_images cl_khr_subgroups cl_khr_subgroup_extended_types cl_khr_subgroup_non_uniform_vote cl_khr_subgroup_ballot cl_khr_il_program cl_khr_priority_hints cl_khr_create_command_queue cl_khr_spirv_no_integer_wrap_decoration cl_khr_extended_versioning cl_khr_device_uuid cl_arm_core_id cl_arm_printf cl_arm_non_uniform_work_group_size cl_arm_import_memory cl_arm_import_memory_dma_buf cl_arm_import_memory_host cl_arm_integer_dot_product_int8 cl_arm_integer_dot_product_accumulate_int8 cl_arm_integer_dot_product_accumulate_saturate_int8 cl_arm_scheduling_controls cl_arm_controlled_kernel_termination cl_ext_cxx_for_opencl
+  Device Extensions with Version                  cl_khr_global_int32_base_atomics                                 0x400000 (1.0.0)
+                                                  cl_khr_global_int32_extended_atomics                             0x400000 (1.0.0)
+                                                  cl_khr_local_int32_base_atomics                                  0x400000 (1.0.0)
+                                                  cl_khr_local_int32_extended_atomics                              0x400000 (1.0.0)
+                                                  cl_khr_byte_addressable_store                                    0x400000 (1.0.0)
+                                                  cl_khr_3d_image_writes                                           0x400000 (1.0.0)
+                                                  cl_khr_int64_base_atomics                                        0x400000 (1.0.0)
+                                                  cl_khr_int64_extended_atomics                                    0x400000 (1.0.0)
+                                                  cl_khr_fp16                                                      0x400000 (1.0.0)
+                                                  cl_khr_icd                                                       0x400000 (1.0.0)
+                                                  cl_khr_egl_image                                                 0x400000 (1.0.0)
+                                                  cl_khr_image2d_from_buffer                                       0x400000 (1.0.0)
+                                                  cl_khr_depth_images                                              0x400000 (1.0.0)
+                                                  cl_khr_subgroups                                                 0x400000 (1.0.0)
+                                                  cl_khr_subgroup_extended_types                                   0x400000 (1.0.0)
+                                                  cl_khr_subgroup_non_uniform_vote                                 0x400000 (1.0.0)
+                                                  cl_khr_subgroup_ballot                                           0x400000 (1.0.0)
+                                                  cl_khr_il_program                                                0x400000 (1.0.0)
+                                                  cl_khr_priority_hints                                            0x400000 (1.0.0)
+                                                  cl_khr_create_command_queue                                      0x400000 (1.0.0)
+                                                  cl_khr_spirv_no_integer_wrap_decoration                          0x400000 (1.0.0)
+                                                  cl_khr_extended_versioning                                       0x400000 (1.0.0)
+                                                  cl_khr_device_uuid                                               0x400000 (1.0.0)
+                                                  cl_arm_core_id                                                   0x400000 (1.0.0)
+                                                  cl_arm_printf                                                    0x400000 (1.0.0)
+                                                  cl_arm_non_uniform_work_group_size                               0x400000 (1.0.0)
+                                                  cl_arm_import_memory                                             0x400000 (1.0.0)
+                                                  cl_arm_import_memory_dma_buf                                     0x400000 (1.0.0)
+                                                  cl_arm_import_memory_host                                        0x400000 (1.0.0)
+                                                  cl_arm_integer_dot_product_int8                                  0x400000 (1.0.0)
+                                                  cl_arm_integer_dot_product_accumulate_int8                       0x400000 (1.0.0)
+                                                  cl_arm_integer_dot_product_accumulate_saturate_int8              0x400000 (1.0.0)
+                                                  cl_arm_scheduling_controls                                         0x3000 (0.3.0)
+                                                  cl_arm_controlled_kernel_termination                             0x400000 (1.0.0)
+                                                  cl_ext_cxx_for_opencl                                            0x400000 (1.0.0)
+
+  Platform Name                                   Portable Computing Language
+Number of devices                                 1
+  Device Name                                     pthread-cortex-a55
+  Device Vendor                                   ARM
+  Device Vendor ID                                0x13b5
+  Device Version                                  OpenCL 1.2 pocl HSTR: pthread-aarch64-unknown-linux-gnu-GENERIC
+  Driver Version                                  1.8
+  Device OpenCL C Version                         OpenCL C 1.2 pocl
+  Device Type                                     CPU
+  Device Profile                                  FULL_PROFILE
+  Device Available                                Yes
+  Compiler Available                              Yes
+  Linker Available                                Yes
+  Max compute units                               8
+  Max clock frequency                             1800MHz
+  Device Partition                                (core)
+    Max number of sub-devices                     8
+    Supported partition types                     equally, by counts
+    Supported affinity domains                    (n/a)
+  Max work item dimensions                        3
+  Max work item sizes                             4096x4096x4096
+  Max work group size                             4096
+  Preferred work group size multiple (kernel)     8
+  Preferred / native vector sizes                 
+    char                                                16 / 16      
+    short                                                8 / 8       
+    int                                                  4 / 4       
+    long                                                 2 / 2       
+    half                                                 0 / 0        (n/a)
+    float                                                4 / 4       
+    double                                               2 / 2        (cl_khr_fp64)
+  Half-precision Floating-point support           (n/a)
+  Single-precision Floating-point support         (core)
+    Denormals                                     No
+    Infinity and NANs                             Yes
+    Round to nearest                              Yes
+    Round to zero                                 No
+    Round to infinity                             No
+    IEEE754-2008 fused multiply-add               No
+    Support is emulated in software               No
+    Correctly-rounded divide and sqrt operations  No
+  Double-precision Floating-point support         (cl_khr_fp64)
+    Denormals                                     Yes
+    Infinity and NANs                             Yes
+    Round to nearest                              Yes
+    Round to zero                                 Yes
+    Round to infinity                             Yes
+    IEEE754-2008 fused multiply-add               Yes
+    Support is emulated in software               No
+  Address bits                                    64, Little-Endian
+  Global memory size                              5915258880 (5.509GiB)
+  Error Correction support                        No
+  Max memory allocation                           2147483648 (2GiB)
+  Unified memory for Host and Device              Yes
+  Minimum alignment for any data type             128 bytes
+  Alignment of base address                       1024 bits (128 bytes)
+  Global Memory cache type                        Read/Write
+  Global Memory cache size                        3145728 (3MiB)
+  Global Memory cache line size                   64 bytes
+  Image support                                   Yes
+    Max number of samplers per kernel             16
+    Max size for 1D images from buffer            134217728 pixels
+    Max 1D or 2D image array size                 2048 images
+    Max 2D image size                             8192x8192 pixels
+    Max 3D image size                             2048x2048x2048 pixels
+    Max number of read image args                 128
+    Max number of write image args                128
+  Local memory type                               Global
+  Local memory size                               524288 (512KiB)
+  Max number of constant args                     8
+  Max constant buffer size                        524288 (512KiB)
+  Max size of kernel argument                     1024
+  Queue properties                                
+    Out-of-order execution                        Yes
+    Profiling                                     Yes
+  Prefer user sync for interop                    Yes
+  Profiling timer resolution                      1ns
+  Execution capabilities                          
+    Run OpenCL kernels                            Yes
+    Run native kernels                            Yes
+  printf() buffer size                            16777216 (16MiB)
+  Built-in kernels                                (n/a)
+  Device Extensions                               cl_khr_byte_addressable_store cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_3d_image_writes cl_khr_fp64
+
+
+NULL platform behavior
+  clGetPlatformInfo(NULL, CL_PLATFORM_NAME, ...)  ARM Platform
+  clGetDeviceIDs(NULL, CL_DEVICE_TYPE_ALL, ...)   Success [ARM]
+  clCreateContext(NULL, ...) [default]            Success [ARM]
+  clCreateContext(NULL, ...) [other]              Success [POCL]
+  clCreateContextFromType(NULL, CL_DEVICE_TYPE_DEFAULT)  Success (1)
+    Platform Name                                 ARM Platform
+    Device Name                                   Mali-LODX r0p0
+  clCreateContextFromType(NULL, CL_DEVICE_TYPE_CPU)  No devices found in platform
+  clCreateContextFromType(NULL, CL_DEVICE_TYPE_GPU)  Success (1)
+    Platform Name                                 ARM Platform
+    Device Name                                   Mali-LODX r0p0
+  clCreateContextFromType(NULL, CL_DEVICE_TYPE_ACCELERATOR)  No devices found in platform
+  clCreateContextFromType(NULL, CL_DEVICE_TYPE_CUSTOM)  No devices found in platform
+  clCreateContextFromType(NULL, CL_DEVICE_TYPE_ALL)  Success (1)
+    Platform Name                                 ARM Platform
+    Device Name                                   Mali-LODX r0p0
+
+ICD loader properties
+  ICD loader Name                                 OpenCL ICD Loader
+  ICD loader Vendor                               OCL Icd free software
+  ICD loader Version                              2.2.14
+  ICD loader Profile                              OpenCL 3.0
